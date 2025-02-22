@@ -42,11 +42,24 @@ The mission showcases advanced decentralized control algorithms, efficient path 
 - **`getFormationGraph.m`**: Script for defining formation graphs and connectivity rules.
 - **`missionMap.png`**: Visualization of the hospital environment and waypoints.
 
-## **How to Run**
+## **Preprequiresites**
+- **MATLAB**
+- **Mapping Toolbox MATLAB**
+
+
+## **How to Run in MATLAB**
 1. Clone this repository:  
    ```bash
    git clone https://github.com/Eashwar-S/Autonomous-Multi-Robot-Disinfection-Mission.git
+   cd Autonomous-Multi-Robot-Disinfection-Mission/robotarium-matlab-simulator/
+   run init.m in MATLAB
    run main.m in MATLAB
+
+## **How to submit to Robotarium**
+1. Make sure that line 13 in main.m ```simulate_true = false```
+2. Sign up for a Robotarium account and wait for getting approved by one of the Robotarium's admins.
+3. Create a new experiment and upload ```main.m, controller.m, getFormationGraph.m, init.m, missionMap.png ``` files choosing ```main.m``` as main file.
+4. For detailed instructions visit this [link](https://www.robotarium.gatech.edu/).
 
 ## Robotarium Output Videos
 1. [Init phase](https://drive.google.com/file/d/1_1s7AJNi74USf0Ci8VVlUZTGpnM9422C/view?usp=sharing) 
